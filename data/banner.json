@@ -1,0 +1,18 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "title": "Free delivery over $50 ",
+      "description": "Shop $50 product and get free\ndelivery anywhere",
+      "image": "/images/banner-01.png",
+      "offer": "Free Deliver"
+    },
+    {
+      "id": 2,
+      "title": "Organic Food ",
+      "description": "Save up to 60% off on your first order",
+      "image": "/images/banner-02.png",
+      "offer": "60 % off"
+    }
+  ]
+}

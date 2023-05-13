@@ -1,0 +1,40 @@
+import { Box, Tabs, Tab, useMediaQuery } from "@mui/material";
+import { useState } from "react";
+
+interface IHeaderProps {
+  title: string;
+  value?: string;
+  handleChange?: (event: React.SyntheticEvent, newValue: string) => void;
+}
+
+const SectionHeader = ({ title }: IHeaderProps) => {
+  const isNonMobile = useMediaQuery("(min-width:600px)");
+  return (
+    <div className="section__header">
+      <h1 className="section__header--title">{title}</h1>
+      <Box>
+        <Tabs
+          textColor="primary"
+          indicatorColor="primary"
+          // value={value}
+          // onChange={handleChange}
+          TabIndicatorProps={{
+            sx: { display: isNonMobile ? "block" : "none" },
+          }}
+          sx={{
+            margin: "15px",
+            "& .MuiTabs-flexContainer": { flexWrap: "wrap" },
+          }}
+        >
+          <Tab value="all" label="All" />
+          <Tab value="vegetable" label="Vegetables" />
+          <Tab value="fruit" label="Fruits" />
+          <Tab value="meat" label="Meat" />
+          <Tab value="tea" label="Tea" />
+        </Tabs>
+      </Box>
+    </div>
+  );
+};
+
+export default SectionHeader;

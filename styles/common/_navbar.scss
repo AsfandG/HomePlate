@@ -1,0 +1,95 @@
+.nav {
+  &__center {
+    @include respond(tab) {
+      @include flex;
+    }
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 0;
+
+    @include respond(tab) {
+      padding: 0;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  &__links {
+    height: 0;
+    overflow: hidden;
+    transition: $transition;
+    @include respond(tab) {
+      height: auto;
+      display: flex;
+      gap: 1.5rem;
+    }
+    li {
+      padding: 1.5rem 0;
+
+      a {
+        @include flex-center;
+        gap: 0.5rem;
+        font-size: 1.6rem;
+        color: $color-text;
+        @include respond(tab) {
+          font-size: 1.4rem;
+        }
+
+        svg {
+          font-size: 1.6rem;
+          @include respond(tab) {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  &__support {
+    font-size: 1.3rem;
+    @include respond(tab) {
+      display: none;
+    }
+    span {
+      font-size: 1.6rem;
+      color: $color-orange-light;
+      margin-right: 0.5rem;
+      @include respond(tab) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  &__toggle {
+    @include respond(tab) {
+      display: none;
+    }
+  }
+}
+
+.support {
+  display: none;
+
+  @include respond(tab) {
+    display: block;
+  }
+  &__text {
+    font-size: 1.3rem;
+    span {
+      font-size: 1.6rem;
+      color: $color-orange-light;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.show-links {
+  height: 24rem;
+  @include respond(tab) {
+    height: auto;
+  }
+}

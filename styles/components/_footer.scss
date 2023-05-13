@@ -1,0 +1,34 @@
+footer {
+  h4 {
+    font-size: 1.75rem;
+    color: $color-text;
+    margin-bottom: 2.25rem;
+  }
+}
+
+.footer-item {
+  font-size: 1.25rem;
+  color: $color-text;
+  margin-bottom: 2.25rem;
+  cursor: pointer;
+}
+
+.footer {
+  &__endLine {
+    font-size: $font-sm;
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &--social-links {
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 2rem;
+        color: $color-orange-dark;
+      }
+    }
+  }
+}

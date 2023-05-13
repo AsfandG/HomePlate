@@ -1,0 +1,63 @@
+.best__sellingProduct {
+  &--contact {
+    border: 1px solid rgba(173, 173, 173, 0.25);
+    border-radius: 3px;
+    width: 22.8rem;
+    height: 38.7rem;
+    padding: 0.6rem;
+    background-color: $color-pink;
+    @include flex-center;
+    flex-direction: column;
+    gap: 5rem;
+    .offer__text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      &--title {
+        color: $color-text;
+        font-size: $font-lg;
+      }
+
+      &--tag {
+        color: $color-text;
+        font-size: $font-md;
+        font-weight: $fontWeight-4;
+        text-align: center;
+      }
+    }
+    .contact__form {
+      .form__control {
+        margin-bottom: 2.5rem;
+        &--label {
+          font-size: $font-sm;
+          margin-bottom: 1rem;
+        }
+        &--input {
+          display: block;
+          border: none;
+          padding: 1rem;
+          width: 100%;
+          margin-top: 0.4rem;
+        }
+      }
+    }
+
+    .submit__button {
+      &--container {
+        display: grid;
+      }
+      &--button {
+        font-size: $font-md;
+        text-transform: capitalize;
+        border-radius: 0.2rem;
+        background: linear-gradient(
+          90deg,
+          $color-orange-light 0%,
+          $color-orange-dark 100.78%
+        );
+      }
+    }
+  }
+}

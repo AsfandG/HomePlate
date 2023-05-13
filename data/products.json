@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Reddish 500g",
+      "image": "/images/Reddish.png",
+      "category": "vegetable",
+      "newprice": 3,
+      "oldprice": 5
+    },
+    {
+      "id": 2,
+      "title": "Potatoes 1Kg",
+      "image": "/images/potatoes.png",
+      "category": "vegetable",
+      "newprice": 1,
+      "oldprice": 1.99
+    },
+    {
+      "id": 3,
+      "title": "Tomatoes 200g",
+      "image": "/images/tomatoes.png",
+      "category": "fruit",
+      "newprice": 0.35,
+      "oldprice": 0.99
+    },
+    {
+      "id": 4,
+      "title": "Brocolli 1kg",
+      "image": "/images/brocolli.png",
+      "category": "fruit",
+      "newprice": 3,
+      "oldprice": 5
+    },
+    {
+      "id": 5,
+      "title": "Green Beans 250g",
+      "image": "/images/beans.png",
+      "category": "meat",
+      "newprice": 1,
+      "oldprice": 1.99
+    },
+    {
+      "id": 6,
+      "title": "Brocolli 1kg",
+      "image": "/images/brocolli.png",
+      "category": "meat",
+      "newprice": 3,
+      "oldprice": 5
+    },
+    {
+      "id": 7,
+      "title": "Green Beans 250g",
+      "image": "/images/beans.png",
+      "category": "tea",
+      "newprice": 1,
+      "oldprice": 1.99
+    }
+  ]
+}

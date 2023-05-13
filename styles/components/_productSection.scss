@@ -1,0 +1,30 @@
+.product__section {
+  margin: 10rem 0;
+  position: relative;
+}
+
+.next__arrow {
+  position: absolute;
+  top: 35%;
+  right: -5%;
+  background-color: $light-gray04;
+  border-radius: 50%;
+  padding: 1rem;
+  cursor: pointer;
+  &--icon {
+    font-size: 2rem;
+  }
+}
+
+.prev__arrow {
+  position: absolute;
+  top: 35%;
+  left: -5%;
+  background-color: $light-gray04;
+  border-radius: 50%;
+  padding: 1rem;
+  cursor: pointer;
+  &--icon {
+    font-size: 2rem;
+  }
+}

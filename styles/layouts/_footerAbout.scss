@@ -1,0 +1,17 @@
+.contacts {
+  font-size: $font-md;
+  margin-top: 2rem;
+  &__listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    &--heading {
+    }
+
+    &--text {
+      font-size: $font-sm;
+      margin-left: 1rem;
+    }
+  }
+}

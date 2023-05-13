@@ -1,0 +1,37 @@
+.deal__container {
+  padding: 4rem 0;
+  margin: 3rem 0;
+
+  @include respond(md) {
+    padding: 8rem 0;
+  }
+}
+
+.dealItem__section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  &--icon {
+    height: 5.2rem;
+    width: 5.2rem;
+    color: $color-orange-light;
+  }
+  .dealItem__info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+    .deal {
+      &__title {
+        color: $color-text;
+        font-size: $font-md;
+        font-weight: $fontWeight-5;
+      }
+      &__text {
+        color: $color-text3;
+        font-size: $font-sm;
+        font-weight: $fontWeight-4;
+      }
+    }
+  }
+}

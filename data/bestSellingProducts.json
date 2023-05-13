@@ -1,0 +1,52 @@
+{
+  "BestSellingProducts": [
+    {
+      "id": 1,
+      "title": "coffee 1kg",
+      "category": "coffee & tea",
+      "image": "/images/sells-01.png",
+      "offer": "save 10%",
+      "oldPrice": 25,
+      "newPrice": 20,
+      "itemsSold": 12,
+      "totalItems": 30,
+      "tag": "popular"
+    },
+    {
+      "id": 2,
+      "title": "Halal Sausage 350g",
+      "category": "coffee & tea",
+      "image": "/images/sells-02.png",
+      "offer": "save 10%",
+      "oldPrice": 34,
+      "newPrice": 31,
+      "itemsSold": 38,
+      "totalItems": 65,
+      "tag": "new"
+    },
+    {
+      "id": 3,
+      "title": "Green Tea 250g",
+      "category": "coffee & tea",
+      "image": "/images/sells-03.png",
+      "offer": "save 10%",
+      "oldPrice": 45,
+      "newPrice": 42,
+      "itemsSold": 56,
+      "totalItems": 60,
+      "tag": "new"
+    },
+    {
+      "id": 4,
+      "title": "Onion 1kg",
+      "category": "coffee & tea",
+      "image": "/images/sells-04.png",
+      "offer": "save 10%",
+      "oldPrice": 5,
+      "newPrice": 3,
+      "itemsSold": 10,
+      "totalItems": 15,
+      "tag": "popular"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Peach",
+      "image": "/images/peach.png",
+      "quantity": 45,
+      "category": "fruit"
+    },
+    {
+      "id": 2,
+      "title": "Vegetables",
+      "image": "/images/veg.png",
+      "quantity": 12,
+      "category": "vegetable"
+    },
+    {
+      "id": 3,
+      "title": "Fruits",
+      "image": "/images/straw.png",
+      "quantity": 54,
+      "category": "fruit"
+    },
+    {
+      "id": 4,
+      "title": "Dry Fruits",
+      "image": "/images/orange.png",
+      "quantity": 32,
+      "category": "fruit"
+    },
+    {
+      "id": 5,
+      "title": "Mutton",
+      "image": "/images/pota.png",
+      "quantity": 67,
+      "category": "meat"
+    },
+    {
+      "id": 6,
+      "title": "Kabab",
+      "image": "/images/carrot.png",
+      "quantity": 78,
+      "category": "meat"
+    },
+    {
+      "id": 7,
+      "title": "Tea",
+      "image": "/images/apple.png",
+      "quantity": 21,
+      "category": "tea"
+    },
+    {
+      "id": 8,
+      "title": "Peach",
+      "image": "/images/peach.png",
+      "quantity": 45,
+      "category": "fruit"
+    },
+    {
+      "id": 9,
+      "title": "Vegetables",
+      "image": "/images/veg.png",
+      "quantity": 12,
+      "category": "vegetable"
+    },
+    {
+      "id": 10,
+      "title": "Fruits",
+      "image": "/images/straw.png",
+      "quantity": 54,
+      "category": "fruit"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.categoryItem {
+  &__image {
+    margin-top: 1rem;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: $color-text;
+  }
+  &__quantity {
+    font-size: 1.15rem;
+    color: $color-text3;
+    margin-top: 0.5rem;
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

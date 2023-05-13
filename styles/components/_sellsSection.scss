@@ -1,0 +1,35 @@
+.sells__section {
+  padding: 9rem 0;
+  &--header {
+    display: flex;
+    align-items: center;
+    gap: 5.8rem;
+  }
+
+  &--title {
+    color: $color-text;
+    font-size: $font-lg;
+    font-weight: $fontWeight-5;
+  }
+
+  &--expire {
+    background-color: $color-orange-dark01;
+    color: $color-bg;
+    padding: 0.9rem;
+    border-radius: 0.3rem;
+    font-size: $font-md;
+  }
+}
+
+.items__wrapper {
+  margin: 4rem 0;
+}
+
+.active__bestSeller {
+  color: red;
+}
+
+.tab {
+  padding: 0.5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+@mixin respond($point) {
+  @if $point == sm {
+    @media (min-width: $sm) {
+      @content;
+    }
+  }
+
+  @if $point == md {
+    @media (min-width: $md) {
+      @content;
+    }
+  }
+
+  @if $point == tab {
+    @media (min-width: $tab) {
+      @content;
+    }
+  }
+
+  @if $point == lg {
+    @media (min-width: $lg) {
+      @content;
+    }
+  }
+
+  @if $point == xl {
+    @media (min-width: $xl) {
+      @content;
+    }
+  }
+}
+
+@mixin flex() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

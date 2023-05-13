@@ -1,0 +1,51 @@
+$color-bg: #fff;
+$black: #000;
+$color-text: #253d4e;
+$color-text2: #556987;
+$color-text3: #adadad;
+$color-orange-light: #ff8b38;
+$color-orange-dark: #f3664b;
+$color-orange-dark01: #f35244;
+$orange-light: #ffd480;
+$pink-01: #fff5e1;
+$pink-02: #feefea;
+$color-gray: #f4f6fa;
+$color-pink: #fff7e6;
+$light-gray: #d0d5dd;
+$light-gray03: #bbc3cf;
+$light-gray04: #f2f3f4;
+$dark-light: #838383;
+$transition: all 0.3s linear;
+$spacing: 0.5rem;
+
+// spacing
+$spacing-sm: 0.8rem;
+$spacing-md: 1.6rem;
+$spacing-lg: 3.2rem;
+
+// Font-size
+$font-sm: 1.2rem;
+$font-md: 1.5rem;
+$font-lg: 2.5rem;
+
+// font-weight
+$fontWeight-sm: 300;
+$fontWeight-4: 400;
+$fontWeight-5: 500;
+$fontWeight-7: 700;
+
+$navHeight: 8rem;
+$transition: all 0.4s linear;
+
+$gap-sm: 0.7rem;
+$gap-md: 3rem;
+$gap-lg: 5rem;
+
+// breakpoints
+/*
+In media queries, the rem and em units are not affected by root font size. so they are always equal to default font size which is 16px. 1em = 16px and so 600/16 = 37.5 mean 600px = 37.5em.
+*/
+$sm: 37.5rem; // screen size > 600px
+$md: 48rem; // screen size > 768px;
+$tab: 56.25rem; // screen size > 900px;
+$xl: 75rem; //  size > 1200px

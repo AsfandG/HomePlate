@@ -1,0 +1,31 @@
+.product {
+  &__info {
+    padding: 1.5rem;
+  }
+
+  &__category--text {
+    color: $color-text3;
+    font-size: $font-sm;
+    font-weight: $fontWeight-sm;
+  }
+  &__title {
+    font-size: $font-md;
+    font-weight: 500;
+  }
+  &__rating {
+    margin: 0.8rem 0;
+    &--stars {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__owner {
+    font-size: $font-sm;
+    font-weight: 300;
+    color: $color-text2;
+    margin-top: 0.5rem;
+    span {
+      color: $color-orange-light;
+    }
+  }
+}

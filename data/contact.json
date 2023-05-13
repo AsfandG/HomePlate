@@ -1,0 +1,24 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "heading": "Address",
+      "text": "1765 School House road"
+    },
+    {
+      "id": 2,
+      "heading": "Call us",
+      "text": "1233-777"
+    },
+    {
+      "id": 3,
+      "heading": "Email",
+      "text": "grocery444@contact.com"
+    },
+    {
+      "id": 4,
+      "heading": "Work Hours",
+      "text": "8:00 - 16:00, Monday - Friday"
+    }
+  ]
+}

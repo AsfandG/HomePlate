@@ -1,0 +1,11 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  @include respond(sm) {
+    width: 80%;
+  }
+
+  @include respond(tab) {
+    width: 86%;
+  }
+}

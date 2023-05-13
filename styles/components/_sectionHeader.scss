@@ -1,0 +1,33 @@
+.section {
+  &__header {
+    margin-bottom: 3rem;
+    @include respond(sm) {
+      @include flex;
+    }
+
+    &--title {
+      font-weight: 500;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      @include respond(md) {
+        font-size: 3.2rem;
+      }
+    }
+    &--tabs {
+      display: flex;
+      gap: 1rem;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.active__tab {
+  color: $color-orange-light;
+}
+
+.tabs__block {
+  span {
+    cursor: pointer;
+  }
+}

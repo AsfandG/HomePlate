@@ -1,0 +1,59 @@
+.topRated__header {
+  &--title {
+    color: $color-text;
+    font-size: $font-lg;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      position: absolute;
+      bottom: -0.8rem;
+      left: 0;
+      content: "";
+      background-color: $color-orange-light;
+      width: 10rem;
+      height: 0.2rem;
+    }
+  }
+}
+
+.topRated {
+  &__item {
+    margin-top: 4rem;
+    width: 20.7rem;
+    display: flex;
+
+    &--image {
+      width: 9rem;
+      height: 9rem;
+      background-color: $color-gray;
+      @include flex-center;
+    }
+    &--content {
+      height: 9rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 1rem;
+      gap: 1.5rem;
+      flex-direction: column;
+      .item {
+        &__title {
+          color: $color-text;
+          font-size: $font-md;
+          font-weight: $fontWeight-5;
+        }
+        &__rating {
+          color: $color-text3;
+          @include flex-center;
+        }
+        &__price {
+          color: $color-text3;
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
